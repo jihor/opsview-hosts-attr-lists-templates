@@ -1,0 +1,26 @@
+[
+  {
+    "arg2": "-O \"java.lang:type=Memory\" -A HeapMemoryUsage -K used",
+    "arg1": "5100",
+    "arg4": null,
+    "value": "Service B JVM Heap",
+    "arg3": null,
+    "name": "JMXQUERY"
+  },
+  {
+    "arg2": "-O \"java.lang:type=Memory\" -A NonHeapMemoryUsage -K used",
+    "arg1": "5100",
+    "arg4": null,
+    "value": "Service B JVM Non-heap Memory Usage",
+    "arg3": null,
+    "name": "JMXQUERY"
+  },
+  {
+    "arg2": "-O \"java.lang:type=Threading\" -A ThreadCount",
+    "arg1": "5100",
+    "arg4": null,
+    "value": "Service B JVM Thread Count",
+    "arg3": null,
+    "name": "JMXQUERY"
+  }
+]
